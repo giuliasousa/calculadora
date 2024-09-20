@@ -1,9 +1,9 @@
 public class Numero {
     private float valor;
-    public Numero(int valor){
-        this.valor=valor;
+    public Numero(){
+        this.valor=0;
     }
-    public void setValor(int valor){
+    public void setValor(float valor){
         this.valor=valor;
     }
     public float getValor(){
