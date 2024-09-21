@@ -1,12 +1,12 @@
 public class Numero {
-    private float valor;
+    private double valor;
     public Numero(){
         this.valor=0;
     }
-    public void setValor(float valor){
+    public void setValor(double valor){
         this.valor=valor;
     }
-    public float getValor(){
+    public double getValor(){
         return this.valor;
     }
 }
